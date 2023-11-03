@@ -6,5 +6,6 @@ lazy val root = (project in file("."))
   .settings(
     name := "capstone_solo",
 
-    libraryDependencies += "net.liftweb" %% "lift-json" % "3.5.0"
+    libraryDependencies += "net.liftweb" %% "lift-json" % "3.5.0",
+    libraryDependencies += "net.sf.opencsv" % "opencsv" % "2.3"
   )
