@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "name": "Kerri Villarreal",
+    "email": "kerrivillarreal@digial.com",
+    "dob": "1946-03-27",
+    "is_active": false,
+    "joined_date": "2018-05-19",
+    "address": [
+      {
+        "street": "Batchelder Street",
+        "city": "Noxen",
+        "state": "Idaho",
+        "zipcode": 620,
+        "country": "Cape Verde"
+      }
+    ],
+    "phone": "(961) 428-2848",
+    "website": "Fannie_George.com",
+    "tags": [
+      "pariatur",
+      "aute",
+      "laborum",
+      "sunt",
+      "ullamco",
+      "minim",
+      "deserunt"
+    ],
+    "employment": [
+      {
+        "job_title": "software engineer",
+        "department": "accounting",
+        "company": "Futurity"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Torres David",
+    "email": "torresdavid@futurity.com",
+    "dob": "1985-02-27",
+    "is_active": false,
+    "joined_date": "2017-10-22",
+    "address": [
+      {
+        "street": "Stoddard Place",
+        "city": "Day",
+        "state": "Palau",
+        "zipcode": 912,
+        "country": "Comoros"
+      }
+    ],
+    "phone": "(934) 533-2138",
+    "website": "Mayer_Nielsen.com",
+    "tags": [
+      "nisi",
+      "nostrud",
+      "ipsum",
+      "in",
+      "aliquip",
+      "quis",
+      "ut"
+    ],
+    "employment": [
+      {
+        "job_title": "waiter",
+        "department": "hr",
+        "company": "Fibrodyne"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Tina Odonnell",
+    "email": "tinaodonnell@fibrodyne.com",
+    "dob": "1963-06-24",
+    "is_active": false,
+    "joined_date": "2016-07-01",
+    "address": [
+      {
+        "street": "Rodney Street",
+        "city": "Somerset",
+        "state": "Indiana",
+        "zipcode": 589,
+        "country": "Egypt"
+      }
+    ],
+    "phone": "(952) 476-3719",
+    "website": "Judy_Green.com",
+    "tags": [
+      "ex",
+      "non",
+      "mollit",
+      "fugiat",
+      "nostrud",
+      "officia",
+      "cillum"
+    ],
+    "employment": [
+      {
+        "job_title": "tech lead",
+        "department": "accounting",
+        "company": "Rodeocean"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Newton Walker",
+    "email": "newtonwalker@rodeocean.com",
+    "dob": "2023-08-30",
+    "is_active": false,
+    "joined_date": "2020-07-21",
+    "address": [
+      {
+        "street": "Vernon Avenue",
+        "city": "Northchase",
+        "state": "Texas",
+        "zipcode": 165,
+        "country": "Yugoslavia"
+      }
+    ],
+    "phone": "(854) 491-2984",
+    "website": "Kim_Barnett.com",
+    "tags": [
+      "Lorem",
+      "ea",
+      "sint",
+      "veniam",
+      "sunt",
+      "in",
+      "qui"
+    ],
+    "employment": [
+      {
+        "job_title": "software engineer",
+        "department": "accounting",
+        "company": "Snips"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Parrish West",
+    "email": "parrishwest@snips.com",
+    "dob": "1955-03-12",
+    "is_active": false,
+    "joined_date": "2021-02-27",
+    "address": [
+      {
+        "street": "Mill Lane",
+        "city": "Matthews",
+        "state": "Iowa",
+        "zipcode": 454,
+        "country": "Saint Vincent and The Grenadines"
+      }
+    ],
+    "phone": "(956) 422-3352",
+    "website": "Stevenson_Johnson.com",
+    "tags": [
+      "dolore",
+      "irure",
+      "officia",
+      "aute",
+      "esse",
+      "anim",
+      "dolor"
+    ],
+    "employment": [
+      {
+        "job_title": "waiter",
+        "department": "IT",
+        "company": "Cinesanct"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Julianne Wiggins",
+    "email": "juliannewiggins@cinesanct.com",
+    "dob": "1973-08-30",
+    "is_active": true,
+    "joined_date": "2022-12-08",
+    "address": [
+      {
+        "street": "Manor Court",
+        "city": "Sterling",
+        "state": "Vermont",
+        "zipcode": 189,
+        "country": "Austria"
+      }
+    ],
+    "phone": "(887) 559-2291",
+    "website": "Atkins_Giles.com",
+    "tags": [
+      "officia",
+      "ut",
+      "ea",
+      "dolor",
+      "ex",
+      "eiusmod",
+      "ex"
+    ],
+    "employment": [
+      {
+        "job_title": "data engineer",
+        "department": "hr",
+        "company": "Organica"
+      }
+    ]
+  }
+]
