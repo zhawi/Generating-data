@@ -49,7 +49,7 @@ object App {
     // 2. Compute and introduce a phoneCount field delineating the count of phone numbers each user possesses.
     val flatUsersWithPhoneCount = DataEnrichment.phoneCountPopulate(flatUsersWithLocation)
 
-    // iv. Textual Alterations
+    // iv. Textual Alterations --------------------------------------------------
 
     // 1. Transform email addresses into lowercase.
     val flatUserWithEmailLowerCase = DataTransformation.emailLowerCase(flatUsersWithPhoneCount)
@@ -57,7 +57,7 @@ object App {
     // 2. Craft a nameInitials field, representing the initials of user names.
     val flatUsersWithInitials = DataTransformation.userNameInitials(flatUserWithEmailLowerCase)
 
-    // v. Array-based Tasks
+    // v. Array-based Tasks --------------------------------------------------
 
     // Spotlight users boasting more than one phone number.
     DataFiltering.spotlightUsers(flatUsersWithInitials)
@@ -65,7 +65,10 @@ object App {
     // Morph the array of tags into a solitary comma-separated string.
     val flatUsersWithTagsAsString = DataTransformation.tagMorph(flatUsersWithInitials)
 
-    // Output
+    // Output to CSV -------------------------------------------------------------
     ExportingDataToCsv.exportingDataToCsv(flatUsersWithTagsAsString, csvPath)
+
+    // vi. API handler to get some info about our users. --------------------
+    ApiHandler.apiHandle(flatUsersWithTagsAsString)
   }
 }
