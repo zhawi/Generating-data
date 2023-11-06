@@ -1,0 +1,23 @@
+package helper_classes
+
+case class FlatUser(id: Int,
+                    name: String,
+                    email: String,
+                    dob: String,
+                    is_active: Boolean,
+                    joined_date: String,
+                    street: String,
+                    city: String,
+                    state: String,
+                    zipcode: Int,
+                    country: String,
+                    phone: String,
+                    website: String,
+                    tags: List[String],
+                    job_title: String,
+                    department: String,
+                    company: String,
+                    location: String = "",
+                    phoneCount: Int = 0,
+                    nameInitials: String = "",
+                    tagTwo: String = "")
