@@ -1,7 +1,7 @@
 ## Scala Basics Capstone Project: Advanced JSON Manipulation and REST API Development
 
 ### Objective
-The overarching goal is to harness Scala's potential for data manipulation, API creation, and handling large datasets. The students will craft an extensive JSON database, wrangle this data, and subsequently, develop a RESTful API to disseminate the processed data.
+The overarching goal is to harness Scala's potential for data manipulation, API creation, and handling large datasets. Will craft an extensive JSON database, wrangle this data, and subsequently, develop a RESTful API to disseminate the processed data.
 
 ### Phase 01: Generating a Comprehensive Fake JSON Database
 - **Objective**: Fabricate a voluminous JSON-format database filled with diverse structured data.
@@ -56,14 +56,6 @@ The overarching goal is to harness Scala's potential for data manipulation, API 
     - `GET /users/:id` to solicit user data by ID.
     - `GET /users?tag=developer` to extract users owning the "developer" tag.
     - `GET /users?state=CA` to retrieve users based in California (or any specific state).
-- **Bonus**:
-    - Embed rigorous error handling for erroneous queries or absent data. Implement logging mechanisms.
-
-### Evaluation Criteria
-1. **Code Acumen**: Pursue efficient utilization of Scala’s offerings and ensure the code is neat, comprehensible, and well-documented.
-2. **Functionality Adherence**: Every task should be impeccably executed, and API endpoints must consistently return the anticipated outputs.
-3. **Robust Error Handling**: Integrate formidable error handling within both the Scala application and the API.
-4. **Documentation Prowess**: Provide lucid guidelines on program execution, API utilization, and any underlying assumptions or prerequisites.
 
 By the culmination of this project, students will have acquired hands-on experience with JSON data manipulation, extensive file operations, and API development in Scala amidst real-world data volume challenges.
 
